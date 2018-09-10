@@ -1,0 +1,127 @@
+# Cyber Documentation
+Created by Greenman#8305. This is not official documentation.
+
+### getrenv
+
+Returns a table populated with the main Roblox thread environment
+```lua
+Table<Variant> getrenv(<None> nil)
+```
+
+### getgenv
+
+Returns a table populated with the main Cyber thread environment
+```lua
+Table<Variant> getgenv(<None> nil)
+```
+
+### getrawmetatable
+
+Returns the metatable of passed object without invoking the __metatable metamethod
+```lua
+Table<Variant> getrawmetatable(Variant<Object> obj)
+```
+
+### setrawmetatable
+
+Sets an object's metatable. Equivalent to setmetatable, except it ignores the __metatable field.
+
+```lua
+Table<Variant> setrawmetatable(Variant<Object> obj, Table<Variant>)
+```
+
+### setreadonly
+Sets the read-only property of 'table' according to the boolean 'val'
+```lua
+None setreadonly(Table table, Boolean val)
+```
+
+### isreadonly
+
+Returns the readonly value of specified table
+```lua
+Boolean isreadonly(Table table)
+```
+
+### loadstring
+Attempts to compile a function with the specified script
+```lua
+Variant<Function, (Nil, String)> loadstring(String src, String chunkName="@CyberChunk")
+```
+
+### dofile
+Attempts to compile and run a script given a file path. Will return nil and string error if exception occurs
+```lua
+Variant dofile(String path)
+```
+
+### setclipboard
+Copy specified data to clipboard
+```lua
+None setclipboard(String data)
+```
+
+### loadfile
+This function no longer exists
+
+### writefile
+Attempts to write data to file
+```lua
+None writefile(String fileName, String data)
+```
+
+### debug.getupvalue 
+Returns the value of the specified upvalue at the index
+```lua
+Variant getupvalue(Variant<Function undefined, int> index, String upvalueName)
+```
+
+### debug.setupvalue
+Returns true if the upvalue at the specified index was found, and set. False otherwise.
+```lua
+Boolean setupvalue(Variant<Function undefined, int> idx, String upvalueName, Variant value)
+```
+
+### printconsole
+Outputs a string to the Cyber console
+```
+None printconsole(String text)
+```
+
+### hideconsole
+Hides the Cyber console
+```lua
+None hideconsole(<None> nil)
+```
+
+### showconsole
+Makes the Cyber console reappear after using `hideconsole`
+```lua
+None showconsole(<None> nil)
+```
+
+### getglobal
+The standard Lua C [lua_getglobal](https://pgl.yoyo.org/luai/i/lua_getglobal) function
+```lua
+None getglobal (String globalname)
+```
+
+### getfield
+The standard Lua C [lua_getfield](https://pgl.yoyo.org/luai/i/lua_getfield) function
+```lua
+None getfield(Variant<int> idx, String fieldname)
+```
+
+### pushstring
+The standard Lua C [lua_pushstring](https://pgl.yoyo.org/luai/i/lua_pushstring) function
+```lua
+None pushstring(String string)
+```
+
+### pushnumber
+The standard Lua C [lua_pushnumber](https://pgl.yoyo.org/luai/i/lua_pushnumber) function
+```lua
+None pushnumber(Variant<int> n)
+```
+
+The other things are events that already exist in Roblox and I don't feel like adding them.
