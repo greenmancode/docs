@@ -84,7 +84,7 @@ Boolean setupvalue(Variant<Function undefined, int> idx, String upvalueName, Var
 
 ### printconsole
 Outputs a string to the Cyber console
-```
+```lua
 None printconsole(String text)
 ```
 
