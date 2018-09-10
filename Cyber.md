@@ -124,7 +124,7 @@ The standard Lua C [lua_pushnumber](https://pgl.yoyo.org/luai/i/lua_pushnumber) 
 None pushnumber(Variant<int> n)
 ```
 
-## Events
+# Events
 ### MouseButton1Click
 ### MouseButton2Click
 ### MouseButton3Click
