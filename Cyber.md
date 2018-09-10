@@ -24,7 +24,7 @@ Table<Variant> getrawmetatable(Variant<Object> obj)
 
 ### setrawmetatable
 
-Sets an object's metatable. Equivalent to setmetatable, except it ignores the __metatable field.
+Sets an object's metatable without invoking __metatable metamethod.
 
 ```lua
 Table<Variant> setrawmetatable(Variant<Object> obj, Table<Variant>)
