@@ -1,2 +1,2 @@
 # docs
-Documentation for my various projects
+Documentation for my various projects and other things
