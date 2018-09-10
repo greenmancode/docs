@@ -124,4 +124,13 @@ The standard Lua C [lua_pushnumber](https://pgl.yoyo.org/luai/i/lua_pushnumber) 
 None pushnumber(Variant<int> n)
 ```
 
-The other things are events that already exist in Roblox and I don't feel like adding them.
+## Events
+### MouseButton1Click
+### MouseButton2Click
+### MouseButton3Click
+### MouseButton1Up
+### MouseButton1Down
+### MouseButton2Up
+### MouseButton2Down
+### MouseButton3Up
+### MouseButton3Down
