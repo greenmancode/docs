@@ -48,11 +48,11 @@ return Plugin
 
 ## Adding Commands To A Plugin
 
-Once you have a plugin setup, you are ready to start adding commands in the `Commands` table. Each command is a key in the table that is usually named the command. Every key in the table is a table with the properties (and function) for the command.
+Once you have a plugin setup, you are ready to start adding commands in the `Commands` table. Each command is a key in the table that is usually named the command.
 
 Here is the keys for each command:
 
-`string ListName` : This is where you put your command (along with arguments in square brackets)
+`string ListName` : This is where you put your command (along with arguments in square brackets). You can show the user and aliases here too.
 
 `string Description` : The message you want to appear when the user clicks the command in the list for more information.
 
@@ -66,6 +66,20 @@ Arguments:
 
 Note: Infinite Yield includes the following functions: `getstring()`, `notify()`, `getPlayer()`
 which will be covered in another section
+
+Each command should follow this format:
+```lua
+--Note: This is just a snippet
+["EXACTCOMMAND"] = {
+    ["ListName"] = "COMMAND [ARGUMENT]",
+    ["Description"] = "DESCRIPTION HERE",
+    ["Aliases"] = {"ALIAS1","ALIAS2","ALIAS3"},
+    ["Function"] = function(args,speaker)
+        --CODE
+    end
+}
+```
+
 
 Here is an example:
 ```lua
