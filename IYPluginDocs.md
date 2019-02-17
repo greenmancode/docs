@@ -199,7 +199,7 @@ Let's see this in a plugin:
 end
 ```
 
-This is a great alternative to game.StarterGui:SetCore("Notification")
+This is a great alternative to using game.StarterGui:SetCore() to make notifications.
 
 ## Loading Plugins
 
