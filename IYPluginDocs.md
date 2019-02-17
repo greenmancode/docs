@@ -98,6 +98,7 @@ return Plugin
 ## Infinite Yield Core Functions
 Infinite Yield's core functions can be used in your commands. Keep in mind that these are not all of the core functions and you can find more by looking inside Infinite Yield's source code.
 
+### getstring
 ```lua
 string getstring((number) argument index)
 ```
@@ -132,6 +133,7 @@ Example:
 User Input: `print Hello World!`
 The command will get "Hello World!" because it takes all the arguments after argument 1 and concatenates it to argument 1.
 
+### getPlayers
 ```lua
 table getPlayers((string) player name, (Player) speaker)
 ```
@@ -183,6 +185,7 @@ end
 ```
 Now you can make your player argument work like it does with normal IY commands!
 
+### notify
 ```lua
 nothing notify([(string) title], (string) message)
 ```
