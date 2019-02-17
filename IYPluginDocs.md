@@ -27,11 +27,11 @@ Now you need to set up the properties of the plugin and the commands table by ad
 
 The following is the basic keys used to set plugin properties:
 
-`PluginName` (string) : The name of your plugin. Keep in mind that your filename must match the value of this property.
+`string PluginName` : The name of your plugin. Keep in mind that your filename must match the value of this property.
 
-`PluginDescription` (string) : The description of your plugin. If the plugin name is self-explanatory, use this as the credits.
+`string PluginDescription` : The description of your plugin. If the plugin name is self-explanatory, use this as the credits.
 
-`Commands` (table) : A table where all of your commands will be created
+`table Commands` : A table where all of your commands will be created
 
 Here is a template to guide you:
 
@@ -52,19 +52,19 @@ Once you have a plugin setup, you are ready to start adding commands in the `Com
 
 Here is the keys for each command:
 
-`ListName` (string) : This is where you put your command (along with arguments in square brackets)
+`string ListName` : This is where you put your command (along with arguments in square brackets)
 
-`Description` (string) : The message you want to appear when the user clicks the command in the list for more information.
+`string Description` : The message you want to appear when the user clicks the command in the list for more information.
 
-`Aliases` (table) : This is the aliases that you can use to run the command. Make sure that the table is sorted and each element of the table is an alias for your command.
+`table Aliases` : This is the aliases that you can use to run the command. Make sure that the table is sorted and each element of the table is an alias for your command.
 
-`Function` (function) : This is the function that is executed when the user runs your command.  
+`function Function` : This is the function that is executed when the user runs your command.  
 
 Arguments: 
-1. args (table) : A table containing the arguments passed into the command
-2. speaker (`Player`) : The user's player object (game.Players.LocalPlayer)
+1. `table args` : A table containing the arguments passed into the command
+2. [Player](https://developer.roblox.com/api-reference/class/Player) `speaker` : The user's player object (game.Players.LocalPlayer)
 
-Note: Infinite Yield includes the following functions: `getstring()`, `notify()`, `getplayer()`
+Note: Infinite Yield includes the following functions: `getstring()`, `notify()`, `getPlayer()`
 which will be covered in another section
 
 Here is a template to guide you:
