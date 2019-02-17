@@ -1,2 +1,3 @@
 # docs
-Documentation for my various projects and other things
+Documentation for various projects and other things
+Not all docs are for my projects
