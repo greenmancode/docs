@@ -1,6 +1,10 @@
 # Cyber Documentation
 Created by Greenman#0490. This is not official documentation.
 
+Last Updated: Nov. 10 2018
+
+Update: This documentation is now old and is here for archival purposes
+
 ### getrenv
 
 Returns a table populated with the main Roblox thread environment
