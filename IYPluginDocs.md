@@ -56,9 +56,9 @@ Here is the keys for each command:
 
 `string Description` : The message you want to appear when the user clicks the command in the list for more information.
 
-`table Aliases` : This is the aliases that you can use to run the command. Make sure that the table is sorted and each element of the table is an alias for your command.
+`table Aliases` : This is the aliases that you can use to run the command. Make sure that the table is sorted and each element of the table is an alias for your command. If you don't want to create any aliases for your command, leave this table empty.
 
-`function Function` : This is the function that is executed when the user runs your command.  
+`function Function` : This is the function that is executed when the user runs your command.
 
 Arguments: 
 1. `table args` : A table containing the arguments passed into the command
