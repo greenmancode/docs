@@ -200,11 +200,14 @@ Example:
 ["Function"] = function(args,speaker)
   local players = getPlayer(args[1], speaker) 
   for k,v in pairs(players) do
-    local Player = players[v]
+    local Player = Players[v]
     print(Player.name)
   end 
 end
 ```
+
+If you are wondering were we are getting `Players` from, you can find it defined inside IY's source code:
+(Line 4): `Players = game:GetService("Players")`
 
 This is not the best way to write this and is to make it simple for beginners. If you want to do this with less code, you can do it like this:
 
@@ -213,7 +216,7 @@ This is not the best way to write this and is to make it simple for beginners. I
 --Command: printname [plr]
 ["Function"] = function(args,speaker) 
   for k,v in pairs(getPlayer(args[1], speaker)) do
-    print(players[v].Name)
+    print(Players[v].Name)
   end 
 end
 ```
