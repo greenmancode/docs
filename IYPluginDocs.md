@@ -212,6 +212,8 @@ This is a great alternative to using game.StarterGui:SetCore() to make notificat
 
 Once you finish creating your own plugin, you are ready to use it in Infinite Yield!
 
+Tip: You can find or post plugins in the **#plugins** channel of the Infinite Yield Discord
+
 The first thing you need to do is to make sure that your filename is `PluginName` and that it has a `.iy` extension. Next, put your file into the `workspace` folder of your exploit.
 
 Tip: If you are unable to see the extension of files, click the **View** tab at the top of the file explorer and check the box next to **File name extensions** ([Image Guide](https://vgy.me/ohxGWG.png))
