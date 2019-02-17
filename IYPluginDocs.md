@@ -206,7 +206,8 @@ Example:
 end
 ```
 
-If you are wondering were we are getting `Players` from, you can find it defined inside IY's source code:
+If you are wondering where the global `Players` is from, you can find it defined inside IY's source code:
+
 (Line 4): `Players = game:GetService("Players")`
 
 This is not the best way to write this and is to make it simple for beginners. If you want to do this with less code, you can do it like this:
