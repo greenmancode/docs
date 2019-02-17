@@ -25,7 +25,7 @@ The following is the basic keys used to set plugin properties:
 
 `PluginName` (string) : The name of your plugin. Keep in mind that your filename must match the value of this property.
 
-`PluginDescription` (string) : The description of your plugin. I recommend making the description include credit to yourself.
+`PluginDescription` (string) : The description of your plugin. If the plugin name is self-explanatory, use this as the credits.
 
 `Commands` (table) : A table where all of your commands will be created
 
