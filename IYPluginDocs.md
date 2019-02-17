@@ -153,9 +153,9 @@ Example:
 User Input: `print Hello World!`
 The command will get "Hello World!" because it takes all the arguments after argument 1 and concatenates it to argument 1.
 
-### getPlayers
+### getPlayer
 ```lua
-table getPlayers((string) player name, (Player) speaker)
+table getPlayer((string) player name, (Player) speaker)
 ```
 This is used to correct shorthand names to full player names. It can also be used to make names like `me`, `others`, `all`work.
 
