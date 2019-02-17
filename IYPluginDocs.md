@@ -1,6 +1,7 @@
 # Infinite Yield Plugin Documentation
 
 [Discord](https://discord.me/infiniteyield)
+
 [Website](https://infyield.yolasite.com/)
 
 Infinite Yield & Original Documentation by Edge
