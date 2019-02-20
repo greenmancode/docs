@@ -86,8 +86,7 @@ Arguments:
 1. `table args` : A table containing the arguments passed into the command
 2. [Player](https://developer.roblox.com/api-reference/class/Player) `speaker` : The user's player object (game.Players.LocalPlayer)
 
-Note: Infinite Yield includes the following functions: `getstring()`, `notify()`, `getPlayer()`
-which will be covered in another section
+Note: Infinite Yield contains global functions that you can use in commands. This will be covered in another section.
 
 Each command should follow this format:
 ```lua
