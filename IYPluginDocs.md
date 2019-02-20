@@ -16,7 +16,7 @@ Last Update: Tuesday, 19-Feb-2019 23:22:08
 # Contents
 * [Creating A Plugin](#creating-a-plugin)
 * [Adding Commands To A Plugin](#adding-commands-to-a-plugin)
-* [Infinite Yield's Core Functions](#infinite-yield's-core-functions)
+* [Infinite Yield's Core Functions](#infinite-yield-core-functions)
 * [Loading Plugins](#loading-plugins)
 
 <hr>
