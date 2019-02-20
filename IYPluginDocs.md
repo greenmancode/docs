@@ -286,9 +286,9 @@ Example Usage:
 --User Input: getRGBColor 255,0,100
 ["Function"] = function(args,speaker) 
   local colors = splitString(args[1],",")
-  local r = colors[1]
-  local g = colors[2]
-  local b = colors[3]
+  local r = colors[1] --255
+  local g = colors[2] --0
+  local b = colors[3] --100
 end
 ```
 
