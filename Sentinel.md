@@ -1,5 +1,7 @@
 # Unofficial Sentinel Beta Documentation
 
+## This documentation is incomplete!
+
 Created by Greenman#1559
 
 Keep in mind:
@@ -66,5 +68,3 @@ Compiles the provided string as a Lua code (into a function).
 string decompile(userdata script)
 ```
 Decompiles the source code of the specified `LocalScript` or `ModuleScript` as a string.
-
-### 
