@@ -3,7 +3,8 @@ Created by Greenman#1559. This is not official documentation.
 
 Last Updated: Nov. 10 2018
 
-Update: This documentation is now old and is here for archival purposes
+Update: This documentation is now old and is here for archival purposes.
+[Cyber CW Thread](https://v3rmillion.net/showthread.php?tid=783281)
 
 ### getrenv
 
