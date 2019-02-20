@@ -9,7 +9,7 @@ Infinite Yield & Original Documentation by Edge#2928
 
 Markdown port, edits, and additions made by Greenman#1559
 
-Last Update: Tuesday, 19-Feb-2019 20:52:33
+Last Update: Tuesday, 19-Feb-2019 23:22:08
 
 <hr>
 
@@ -250,6 +250,50 @@ end
 ```
 
 This is a great alternative to using game.StarterGui:SetCore() to make notifications.
+
+### randomString
+```lua
+string randomString()
+```
+Generates a random string with a length of 10-19 characters.
+
+### splitString
+```lua
+table splitString((string) string, (string) separator/deliminator)
+```
+Splits a string by a deliminator. The results are stored in the returned table.
+
+Example Usage:
+```lua
+--Note: This is just a snippet
+--Command: getRGBcolor
+--User Input: getRGBColor 255,0,100
+["Function"] = function(args,speaker) 
+  local colors = splitString(args[1],",")
+  local r = colors[1]
+  local g = colors[2]
+  local b = colors[3]
+end
+```
+
+### Time
+```lua
+string Time()
+```
+Returns the current time as the following string: `Hour:Minute:Second AM/PM`
+
+### FindInTable
+```lua
+boolean FindInTable((table) table, (any) value)
+```
+Checks if a value exists in a table. Returns true if the value is found and false if the value is not found.
+
+### GetInTable
+```lua
+any GetInTable((table) table, (any) value)
+```
+Returns the index of a value in a table. Returns the index if the value is found and false if the value is not found.
+Keep in mind that this function only works with **sorted tables**.
 
 ## Loading Plugins
 
