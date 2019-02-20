@@ -9,7 +9,7 @@ Infinite Yield & Original Documentation by Edge#2928
 
 Markdown port, edits, and additions made by Greenman#1559
 
-Last Update: Tuesday, 19-Feb-2019 23:22:08
+Last Update: Tuesday, 19-Feb-2019 23:32:42
 
 <hr>
 
@@ -17,7 +17,14 @@ Last Update: Tuesday, 19-Feb-2019 23:22:08
 * [Creating A Plugin](#creating-a-plugin)
 * [Adding Commands To A Plugin](#adding-commands-to-a-plugin)
 * [Infinite Yield's Core Functions](#infinite-yield-core-functions)
-..* [getstring](#getstring)
+    * [getstring](#getstring)
+    * [getPlayer](#getplayer)
+    * [notify](#notify)
+    * [randomString](#randomstring)
+    * [splitString](#splitstring)
+    * [Time](#time)
+    * [FindInTable](#findintable)
+    * [GetInTable](#getintable)
 * [Loading Plugins](#loading-plugins)
 
 <hr>
