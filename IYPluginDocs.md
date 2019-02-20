@@ -15,6 +15,11 @@ Last Update: Tuesday, 19-Feb-2019 23:22:08
 
 # Contents
 [Creating A Plugin](#creating-a-plugin)
+[Adding Commands To A Plugin](#adding-commands-to-a-plugin)
+[Infinite Yield's Core Functions](#infinite-yield's-core-functions)
+[Loading Plugins](#loading-plugins)
+
+<hr>
 
 
 Infinite Yield plugins are a way for you to add custom content to your command list. You can share this content or keep it to yourself without worrying about editing Infinite Yield every time we release an update.
