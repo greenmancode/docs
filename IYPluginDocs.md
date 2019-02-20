@@ -14,7 +14,7 @@ Last Update: Tuesday, 19-Feb-2019 23:22:08
 <hr>
 
 # Contents
-[Creating A Plugin](./#creating-a-plugin)
+[Creating A Plugin](#creating-a-plugin)
 
 
 Infinite Yield plugins are a way for you to add custom content to your command list. You can share this content or keep it to yourself without worrying about editing Infinite Yield every time we release an update.
