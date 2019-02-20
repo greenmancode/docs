@@ -8,12 +8,14 @@ Infinite Yield & Original Documentation by Edge#2928
 
 Markdown port, edits, and additions made by Greenman#1559
 
+Last Update: Wednesday, 20-Feb-2019 20:52:33
+
 Infinite Yield plugins are a way for you to add custom content to your command list. You can share this content or keep it to yourself without worrying about editing Infinite Yield every time we release an update.
 
 Plugins are `.iy` files and should be placed in the `workspace` folder of your exploit.
 
 ## Creating A Plugin
-First of all, open your favorite Lua editor. (Roblox Studio or Notepad++ for example)
+First of all, open your favorite Lua editor. (Examples: Notepad++, ZeroBrane Studio, Visual Studio Code)
 
 Start by setting up a module that returns a table. I recommend that you name the table Plugin
 ```lua
