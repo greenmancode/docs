@@ -1,9 +1,9 @@
 # Infinite Yield Plugin Documentation
 <hr>
 
-[Discord](https://discord.me/infiniteyield)
+[Infinite Yield Discord](https://discord.me/infiniteyield)
 
-[Website](https://infyield.yolasite.com/)
+[Infinite Yield Website](https://infyield.yolasite.com/)
 
 Infinite Yield & Original Documentation by Edge#2928
 
