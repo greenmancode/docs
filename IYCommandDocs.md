@@ -6,28 +6,28 @@ Notice: This is unfinished
 
 <hr>
 
-# rejoin
+## rejoin
 Command Arguments: N/A
 
 Aliases: `rj`
 
 Rejoins the game you are playing on the server you were playing on.
 
-# exit
+## exit
 Command Arguments: N/A
 
 Aliases: N/A
 
 Kills the Roblox process. 
 
-# logs
+## logs
 Command Arguments: N/A
 
 Aliases: `chatlogs`
 
 Opens a window that will log what players say or whisper.
 
-# serverinfo
+## serverinfo
 Command Arguments: N/A
 
 Aliases: `info`, `sinfo`
@@ -41,21 +41,21 @@ Opens a window that gives you the following information:
 - Place ID
 - Place Name
 
-# explorer
+## explorer
 Command Arguments: N/A
 
 Aliases: `dex`
 
 Opens DEX (v3 light theme) explorer
 
-# remotespy
+## remotespy
 Command Arguments: N/A
 
 Aliases: `remotes`
 
 Starts a remotespy that outputs results to the Roblox console. (Press `F9` to open the Roblox Console).
 
-# breakloops
+## breakloops
 
 Command Arugments: N/A
 
