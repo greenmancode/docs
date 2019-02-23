@@ -1,4 +1,4 @@
-# Unofficial Infinite Yield Command Documentation
+# Infinite Yield Command Documentation
 
 Written by Greenman#1559
 
@@ -61,4 +61,4 @@ Command Arugments: N/A
 
 Aliases: `break`
 
-Terminates all command loops made with IY
+Terminates all command loops made with FE Infinite Yield
