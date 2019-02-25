@@ -196,7 +196,36 @@ Command Arguments: `esp [plr]`
 
 Aliases: N/A
 
-ESP stands for Enemy Sound Position. It shows you where the player is (through walls) and stats about the player. This command enables the ESP for the specified player.
+ESP stands for Enemy Sound Position. It enables ESP for the specified players.
+Visible Stats:
+- Player Health
+- Player Name
+- Distance from you (in studs)
+- Cham: Enemy (Red) or Ally (Green)
 
 ## noesp
 Command Arguments: `noesp [plr]`
+
+* If you don't specify the [plr] argument, the default is all players.
+
+Aliases: `unesp`
+
+Removes ESP for the specified players.
+
+## chams
+Command Arguments: `chams [plr]`
+
+* If you don't specify the [plr] argument, the default is all players.
+
+Aliases: N/A
+
+Enables chams for the specified players. Red cham = Enemy. Green cham = Ally.
+
+## nochams
+Command Arguments: `nochams [plr]`
+
+* If you don't specify the [plr] argument, the default is all players.
+
+Aliases: `unchams`
+
+Removes chams from the specified players.
