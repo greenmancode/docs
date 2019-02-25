@@ -18,7 +18,7 @@ Command Arguments: N/A
 
 Aliases: N/A
 
-Kills the Roblox process. 
+Kills the Roblox process via `game:Shutdown()`. 
 
 ## logs
 Command Arguments: N/A
