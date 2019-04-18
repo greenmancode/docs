@@ -6,9 +6,12 @@ Last Updated: Nov. 10 2018
 Update: 
 This documentation is now old and is here for archival purposes.
 
-[Inspiration](https://targaryentech.com/api.html)
+~~[Inspiration](https://targaryentech.com/api.html)~~
+The website isn't there anymore. I just copied from the Visenya (roblox exploit) API documentation.
 
-[Cyber CW Thread](https://v3rmillion.net/showthread.php?tid=783281)
+~~[Cyber CW Thread](https://v3rmillion.net/showthread.php?tid=783281)~~
+Update: Thread deleted so I will include my synopsis here.
+Cyber started out as a shitty wrapper that costed $10 made by Pudding Mug. Shortly after release, it's exposed for being skidded off of Axon. Jumping forward to "Cyber V3", this is when I bought the exploit (I was stupid lol). I don't know why but I was dickriding the exploit and was on the support team so I wrote these docs. The working Cyber I had was one of the most unstable and incomplete wrappers I've ever used. In the end, it turned out that Cyber was skidding off of ScriptWare.
 
 ### getrenv
 
