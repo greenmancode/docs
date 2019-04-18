@@ -9,7 +9,7 @@ Infinite Yield & Original Documentation by Edge#2928
 
 Markdown port, edits, and additions made by Greenman#1559
 
-Last Update: Tuesday, 19-Feb-2019 23:32:42
+Last Update: Wednesday, 17-Apr-2019 11:36:42
 
 <hr>
 
@@ -310,6 +310,8 @@ any GetInTable((table) table, (any) value)
 ```
 Returns the index of a value in a table. Returns the index if the value is found and false if the value is not found.
 Keep in mind that this function only works with **sorted tables**.
+
+**Update:** ZWolf has documented a lot more of the core functions. Click [here](https://luatsuki.github.io/site/index.html) to see more of the core functions.
 
 ## Loading Plugins
 
