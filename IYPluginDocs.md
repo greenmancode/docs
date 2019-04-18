@@ -9,6 +9,8 @@ Infinite Yield & Original Documentation by Edge#2928
 
 Markdown port, edits, and additions made by Greenman#1559
 
+Additional Core Function Docs (click [here](https://luatsuki.github.io/site/index.html)) made by ZWolf
+
 Last Update: Wednesday, 17-Apr-2019 11:36:42
 
 <hr>
