@@ -21,7 +21,6 @@ Click a function name to skip to its documentation:<br>
 [indexOf](#tableindexof)<br>
 [join](#tablejoin)<br>
 [lastIndexOf](#tablelastindexof)<br>
-[indexOf](#tableindexof)<br>
 [map](#tablemap)<br>
 [reduce](#tablereduce)<br>
 [reduceRight](#tablereduceright)<br>
