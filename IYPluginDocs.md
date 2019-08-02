@@ -1,17 +1,17 @@
 # Infinite Yield Plugin Documentation
 <hr>
 
-[Infinite Yield Discord](https://discord.me/infiniteyield)
+[Infinite Yield Discord](https://discord.io/infiniteyield)
 
 [Infinite Yield Website](https://infyield.yolasite.com/)
 
-Infinite Yield & Original Documentation by Edge#2928
+Infinite Yield & Inspired by Edge#2928
 
-Markdown port, edits, and additions made by Greenman#1559
+Documentation written by Greenman#8153
 
-Additional Core Function Docs (click [here](https://luatsuki.github.io/site/index.html)) made by ZWolf
+Additional IY Function Docs (click [here](https://luatsuki.github.io/site/index.html)) made by ZWolf
 
-Last Update: Wednesday, 17-Apr-2019 11:36:42
+Last Update: Friday, 02-Aug-2019 13:49:03
 
 <hr>
 
