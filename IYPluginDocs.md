@@ -5,7 +5,7 @@
 
 [Infinite Yield Website](https://infyield.yolasite.com/)
 
-Infinite Yield & Inspired by Edge#2928
+Infinite Yield is developed by Edge#2928, Zwolf#3762, and Moon#0653
 
 Documentation written by Greenman#8153
 
