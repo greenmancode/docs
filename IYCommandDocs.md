@@ -2,7 +2,7 @@
 
 Written by Greenman#1559
 
-Notice: This is unfinished
+Notice: This was made before official command documentation was available but never finished. Please go [here](https://infyield.yolasite.com/Download.php) for official docs.
 
 <hr>
 
